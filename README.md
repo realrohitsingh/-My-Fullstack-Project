@@ -1,6 +1,12 @@
 # 🚀 My Fullstack Project
 
-A full-stack web application built using Node.js, Express, and a frontend framework ReactJS. This project includes support for file uploads, modular backend architecture, and a separate frontend interface. *(Project still in development)*
+![React](https://img.shields.io/badge/Frontend-React-blue)
+![Node.js](https://img.shields.io/badge/Backend-Node.js-green)
+![Express](https://img.shields.io/badge/API-Express-black)
+![Status](https://img.shields.io/badge/Status-Under_Development-yellow)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
+A full-stack web application built using Node.js, Express, and React. This project includes support for file uploads, modular backend architecture, and a dynamic frontend interface. *(Project still in development)*
 
 ---
 
@@ -9,7 +15,7 @@ A full-stack web application built using Node.js, Express, and a frontend framew
 This project demonstrates a full-stack web app setup with the following:
 - REST API in Node.js + Express
 - File upload functionality
-- Frontend integration
+- Frontend integration with React
 - Environment variable management via `.env`
 
 ---
@@ -24,12 +30,14 @@ This project demonstrates a full-stack web app setup with the following:
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Built With
 
-- **Frontend**: React / Vite / HTML / CSS
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB *(if applicable)*
-- **Other Tools**: dotenv, Multer
+- ⚛️ **React.js** — Frontend library for building user interfaces
+- 🟢 **Node.js** — JavaScript runtime environment
+- 🚂 **Express.js** — Web application framework for Node.js
+- 🗄️ **MongoDB** *(if applicable)* — NoSQL database for data storage
+- 📦 **Multer** — Middleware for handling file uploads
+- 🔐 **dotenv** — For managing environment variables
 
 ---
 
@@ -88,29 +96,19 @@ my-project/
 │   ├── package.json
 │   ├── package-lock.json
 │   ├── node_modules/
-│   │   └── (backend dependencies)
 │   ├── src/
-│   │   ├── (source code files like routes, controllers, models etc.)
-│   ├── uploads/
-│   │   └── (uploaded files stored here)
+│   └── uploads/
 ├── frontend/
 │   ├── package.json
 │   ├── package-lock.json
 │   ├── node_modules/
-│   │   └── (frontend dependencies)
 │   ├── public/
-│   │   └── (static files like index.html, favicon, etc.)
-│   ├── src/
-│   │   ├── assets/
-│   │   │   └── (images, icons, logos etc.)
-│   │   ├── components/
-│   │   │   └── (reusable React components)
-│   │   ├── pages/
-│   │   │   └── (individual page components)
-│   │   ├── App.jsx
-│   │   ├── main.jsx
-│   │   └── (other utility files)
-
+│   └── src/
+│       ├── assets/
+│       ├── components/
+│       ├── pages/
+│       ├── App.jsx
+│       └── main.jsx
 ```
 
 ---
