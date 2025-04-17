@@ -79,15 +79,38 @@ npm start
 
 ```
 my-project/
+├── README.md
+├── package.json
+├── package-lock.json
+├── node_modules/
 ├── backend/
-│   ├── src/
-│   ├── uploads/
 │   ├── .env
 │   ├── package.json
-│   └── ...
+│   ├── package-lock.json
+│   ├── node_modules/
+│   │   └── (backend dependencies)
+│   ├── src/
+│   │   ├── (source code files like routes, controllers, models etc.)
+│   ├── uploads/
+│   │   └── (uploaded files stored here)
 ├── frontend/
-│   └── (Coming soon)
-└── README.md
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── node_modules/
+│   │   └── (frontend dependencies)
+│   ├── public/
+│   │   └── (static files like index.html, favicon, etc.)
+│   ├── src/
+│   │   ├── assets/
+│   │   │   └── (images, icons, logos etc.)
+│   │   ├── components/
+│   │   │   └── (reusable React components)
+│   │   ├── pages/
+│   │   │   └── (individual page components)
+│   │   ├── App.jsx
+│   │   ├── main.jsx
+│   │   └── (other utility files)
+
 ```
 
 ---
