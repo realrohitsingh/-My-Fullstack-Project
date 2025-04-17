@@ -1,0 +1,159 @@
+/* Modern Upload Resume Page */
+.upload-container {
+  max-width: 600px;
+  margin: 80px auto;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(25px);
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  color: #222;
+  transition: 0.3s ease-in-out;
+}
+
+/* Background with Soft Gradient */
+body {
+  background: linear-gradient(to right, #dbeafe, #bfdbfe);
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Title & Subtitle */
+.upload-container h1 {
+  font-size: 34px;
+  font-weight: 800;
+  color: #1a1a1a;
+  margin-bottom: 10px;
+}
+
+.upload-container p {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+/* Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: left;
+}
+
+label {
+  font-weight: 600;
+  font-size: 15px;
+  color: #333;
+}
+
+/* Input Fields & Select */
+select,
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  font-size: 15px;
+  background: rgba(255, 255, 255, 0.9);
+  color: #222;
+  transition: 0.3s ease-in-out;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+}
+
+/* Placeholder Styling */
+input::placeholder,
+textarea::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+textarea {
+  height: 120px;
+  resize: none;
+}
+
+/* File Input */
+input[type="file"] {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Button Styling */
+button {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(to right, #007bff, #0056b3);
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background: linear-gradient(to right, #0056b3, #003f7f);
+  transform: scale(1.05);
+}
+
+/* AI Recommendation Box */
+.recommendation-box {
+  margin-top: 30px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  text-align: left;
+}
+
+.recommendation-box h2 {
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 12px;
+  color: #1a1a1a;
+}
+
+.recommendation-box h3 {
+  font-size: 18px;
+  margin-top: 15px;
+  color: #444;
+}
+
+.recommendation-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.recommendation-box ul li {
+  background: rgba(0, 0, 0, 0.05);
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .upload-container {
+    width: 90%;
+    padding: 30px;
+  }
+
+  button {
+    font-size: 14px;
+  }
+}
+  

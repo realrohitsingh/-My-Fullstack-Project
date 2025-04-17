@@ -1,0 +1,51 @@
+/* ResumeDashboardCard.css */
+
+.resume-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease-in-out;
+  border-left: 6px solid #007bff;
+}
+
+.resume-card:hover {
+  transform: scale(1.02);
+}
+
+.resume-card h3 {
+  font-size: 1.4rem;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.resume-card p {
+  margin: 0.3rem 0;
+  color: #444;
+  font-size: 0.95rem;
+}
+
+.resume-card .reason {
+  margin-top: 0.5rem;
+  color: #555;
+  font-style: italic;
+}
+
+.resume-card strong {
+  font-weight: 600;
+}
+
+.download-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.download-btn:hover {
+  background-color: #0056b3;
+}

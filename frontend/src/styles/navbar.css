@@ -1,0 +1,49 @@
+.modern-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 16px 32px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.navbar-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.navbar-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #555;
+  font-weight: 500;
+}
+
+.navbar-links a.active,
+.navbar-links a:hover {
+  color: #007BFF;
+  border-bottom: 2px solid #007BFF;
+}
+
+.navbar-auth .btn-outline {
+  padding: 8px 16px;
+  border: 2px solid #007BFF;
+  background: transparent;
+  color: #007BFF;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.navbar-auth .btn-outline:hover {
+  background: #007BFF;
+  color: white;
+}

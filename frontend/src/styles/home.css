@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.home-container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background:  linear-gradient(to right, rgba(15, 23, 42, 0.8) 10%, #0F172A 50%, rgba(15, 23, 42, 0.8) 90%);
+  }
+  
+  .hero {
+
+    color: white;
+    padding: 100px 20px;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .cta-buttons {
+    margin-top: 20px;
+  }
+  
+  .btn {
+    padding: 12px 24px;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+  
+  .primary {
+    background-color: #ffcc00;
+    color: black;
+  }
+  
+  .secondary {
+    background-color: #fff;
+    color: black;
+    border: 1px solid #4A90E2;
+  }
+  
+  .features {
+    padding: 50px 20px;
+  }
+  
+  .features h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .feature-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .feature {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+  }
+  
+  .testimonials {
+    /* background: #eee; */
+    padding: 50px 20px;
+  }
+  
+  .testimonial {
+    background: white;
+    padding: 20px;
+    margin: 10px auto;
+    width: 60%;
+    border-left: 5px solid #4A90E2;
+  }
+
+  .testimonials h2 {
+    color: white;
+  }
+  
+  .footer {
+    background: #333;
+    color: white;
+    padding: 20px;
+  }
+  
+  .footer a {
+    color: #ffcc00;
+    text-decoration: none;
+  }
+  
+  /* Add the new Browse Templates button */
+.tertiary {
+  background-color: #ffcc00; /* Orange color */
+  color: black;
+  border: none;
+}
+
+/* Keep hover effect consistent */
+.btn:hover {
+  opacity: 0.8;
+}
